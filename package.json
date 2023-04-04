@@ -1,0 +1,18 @@
+{
+  "name": "cypress-complete-framework-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:locally": "npx cypress run --e2e --config baseUrl=https://qacart-todo.herokuapp.com/",
+    "test:prod": "npx cypress run --e2e" ,
+    "test:report": "npx cypress run --record --key d6c64747-a1ea-4dbd-971c-ef374969224f"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.9.0"
+  }
+}
